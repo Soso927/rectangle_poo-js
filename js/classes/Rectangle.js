@@ -34,11 +34,11 @@ class Rectangle
     }
 
     area(){
-        return length * width; 
+        return this.#length * this.#width; 
     }
 
     isSquare(){
-        
+        return this.#length === this.#width;
     }
 
 }
